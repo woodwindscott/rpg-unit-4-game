@@ -1,0 +1,31 @@
+body {
+    background-image: url(../images/star-wars-battlefront.png);
+}
+
+.wrapper {
+    width: 960px;
+}
+
+.image-box {
+    width: 220px;
+    height: 130px;
+    margin: 5px;
+    border: 5px solid green;
+    background-color: white;
+    float: left;
+}
+
+.picture {
+    width: 180px;
+    height: 90px;
+    margin: 0 20px 0 20px;
+    float: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.blank-space {
+    height: 160px;
+}
