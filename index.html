@@ -10,34 +10,40 @@
     <h1>Star Wars RPG</h1>
     <div class = "wrapper">
 
-        <div class = "image-box">
-            <div class = "text-center">Obi Wan Kenobi</div>
-            <img class = "picture" src = "assets/images/obi-wan-kenobi.jpg">
-            <div class = "text-center">Health Points</div>
+        <div id = "choose-a-character">
+      
+            <div class = "image-box">
+                <div class = "text-center" id = "character-1-name"></div>
+                <div id = "character-1-picture"></div>
+                <div class = "text-center" id = "character-1-hp"></div>
+            </div>
+            <div class = "image-box">
+                <div class = "text-center" id = "character-2-name"></div>
+                <div id = "character-2-picture"></div>
+                <div class = "text-center" id = "character-2-hp"></div>
+            </div>
+            <div class = "image-box">
+                <div class = "text-center" id = "character-3-name"></div>
+                <div id = "character-3-picture"></div>
+                <div class = "text-center" id = "character-3-hp"></div>
+            </div>
+            <div class = "image-box">
+                <div class = "text-center" id = "character-4-name"></div>
+                <div id = "character-4-picture"></div>
+                <div class = "text-center" id = "character-4-hp"></div>
+            </div>
+
         </div>
-        <div class = "image-box">
-            <div class = "text-center">Luke Skywalker</div>
-            <img class = "picture" src = "assets/images/luke-skywalker.jpg">
-            <div class = "text-center">Health Points</div>
-        </div>
-        <div class = "image-box">
-            <div class = "text-center">Darth Sidious</div>
-            <img class = "picture" src = "assets/images/darth-sidious.jpg">
-            <div class = "text-center">Health Points</div>
-        </div>
-        <div class = "image-box">
-            <div class = "text-center">Darth Maul</div>
-            <img class = "picture" src = "assets/images/darth-maul.jpg">
-            <div class = "text-center">Health Points</div>
-        </div>
+
+
 
         <div>
             <h3>Your Character</h3>
             <div class = "blank-space">
-                <div class = "image-box">
-                    <div class = "text-center">Obi Wan Kenobi</div>
-                    <img class = "picture" src = "assets/images/obi-wan-kenobi.jpg">
-                    <div class = "text-center">Health Points</div>
+                <div class = "image-box" id = "your-character">
+                    <div class = "text-center" id = "attacker-name"></div>
+                    <div id = "attacker-picture"></div>
+                    <div class = "text-center" id = "attacker-hp"></div>
                 </div>
             </div>
         </div>
@@ -46,28 +52,28 @@
             <h3>Enemies Available to Attack</h3>
         </div>
 
-        <div class = "image-box">
-            <div class = "text-center">Obi Wan Kenobi</div>
-            <img class = "picture" src = "assets/images/obi-wan-kenobi.jpg">
-            <div class = "text-center">Health Points</div>
+        <div class = "enemies">
+
+                <div class = "image-box enemies-image-box" id = "enemies-1-image-box">
+                    <div class = "text-center" id = "enemies-1-name"></div>
+                    <div id = "enemies-1-picture"></div>
+                    <div class = "text-center" id = "enemies-1-hp"></div>
+                </div>
+                <div class = "image-box enemies-image-box" id = "enemies-2-image-box">
+                    <div class = "text-center" id = "enemies-2-name"></div>
+                    <div id = "enemies-2-picture"></div>
+                    <div class = "text-center" id = "enemies-2-hp"></div>
+                </div>
+                <div class = "image-box enemies-image-box" id = "enemies-3-image-box">
+                    <div class = "text-center" id = "enemies-3-name"></div>
+                    <div id = "enemies-3-picture"></div>
+                    <div class = "text-center" id = "enemies-3-hp"></div>
+                </div>
+
         </div>
-        <div class = "image-box">
-            <div class = "text-center">Luke Skywalker</div>
-            <img class = "picture" src = "assets/images/luke-skywalker.jpg">
-            <div class = "text-center">Health Points</div>
-        </div>
-        <div class = "image-box">
-            <div class = "text-center">Darth Sidious</div>
-            <img class = "picture" src = "assets/images/darth-sidious.jpg">
-            <div class = "text-center">Health Points</div>
-        </div>
-        <div class = "image-box">
-            <div class = "text-center">Darth Maul</div>
-            <img class = "picture" src = "assets/images/darth-maul.jpg">
-            <div class = "text-center">Health Points</div>
-        </div>
-        <div>
-            <h3>Fight Section</h3>
+
+        <div class = "clear-float">
+            <p><h3>Fight Section</h3></p>
         </div>
 
         <button>Attack</button>

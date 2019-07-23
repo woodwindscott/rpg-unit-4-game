@@ -29,3 +29,15 @@ body {
 .blank-space {
     height: 160px;
 }
+
+.clear-float {
+    clear: left;
+}
+
+.enemies-image-box {
+    width: 220px;
+    height: 130px;
+    margin: 5px;
+    border: 5px solid black;
+    background-color: red;
+    float: left;
